@@ -128,7 +128,7 @@ var ReactStripeCheckout = function (_React$Component) {
     key: 'componentDidMount',
     value: function componentDidMount() {
       var _this2 = this;
-
+      return; // Scrappy fix for chrome ext as we can't load ext script files
       if (scriptLoaded) {
         return;
       }
