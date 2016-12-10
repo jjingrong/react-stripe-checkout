@@ -191,6 +191,8 @@ export default class ReactStripeCheckout extends React.Component {
   }
 
   componentDidMount() {
+    // Hotfix by Jingrong - I don't want this part at all as chrome ext does not allow for external script loading from main document.
+    return;
     if (scriptLoaded) {
       return;
     }
